@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "configVersion": 3,
+  "killSwitch": false,
+  "android": {
+    "mode": "unity-first",
+    "unity": {
+      "enabled": true,
+      "appKey": "28f16785d"
+    },
+    "admob": {
+      "enabled": false
+    },
+    "weights": {
+      "unity": 80,
+      "admob": 20
+    },
+    "autoSwitch": {
+      "enabled": true,
+      "softFailureThreshold": 8,
+      "hardFailureThreshold": 3,
+      "minimumWindowMinutes": 15,
+      "blockHours": 24
+    }
+  },
+  "ios": {
+    "mode": "off",
+    "unity": {
+      "enabled": false,
+      "appKey": ""
+    },
+    "admob": {
+      "enabled": false
+    },
+    "weights": {
+      "unity": 80,
+      "admob": 20
+    },
+    "autoSwitch": {
+      "enabled": true,
+      "softFailureThreshold": 8,
+      "hardFailureThreshold": 3,
+      "minimumWindowMinutes": 15,
+      "blockHours": 24
+    }
+  }
+}
